@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <title> Elektronski dnevnik </title>
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="./slike/logo-link.svg" alt="link group logo">
+        </div>
+
+        <div class="glavni-deo">
+            <form class="forma" action="" method="post">
+                <p class="naslov">
+                    Elektronski dnevnik
+                    <small> za učenike </small>
+                </p>
+                
+                <fieldset class="unos">
+                    <div class="polje">
+                        <div class="ikonica">
+                            <img src="./slike/ucenik.svg" alt="ucenik">
+                        </div>
+                        <input type="text" name="kime" placeholder="Korisničko ime">
+                    </div>
+                    
+                    <div class="polje">
+                        <div class="ikonica">
+                            <img src="./slike/katanac.svg" alt="katanac">
+                        </div>
+                        <input type="password" name="sifra" placeholder="Šifra">
+                    </div>
+                </fieldset>
+    
+                <fieldset class="dugmici">
+                    <button type="submit" class="prijava"> Prijavi se </button>
+                    <button type="submit" class="sifra"> Zaboravili ste šifru? </button>
+                </fieldset>
+            </form>
+            
+            <div class="iths-logo">
+                <img src="./slike/logon.png" alt="ITHS Logo">
+            </div>
+        </div>
+        <p class="copyright">
+            Copyright &#169; 
+            <a href="http://www.link.co.rs/"> LINK group. </a>
+        </p>
+    </div>
+</body>
+</html>
