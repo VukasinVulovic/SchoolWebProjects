@@ -1,2 +1,3 @@
-# SkolaWeb
-Skolski Projekti iz web-porogramiranja
+# School Web Projects
+
+Projects made for school
