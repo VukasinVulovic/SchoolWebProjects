@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.controls .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1vw;
+}
+
+.controls .text .title {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    margin-bottom: 1vh;
+}
+
+.controls .text .info {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    margin-bottom: 1vh;
+}
+
+.controls .text .icon {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.controls .show {
+    flex-wrap: wrap;
+    margin-left: 1vw;
+    font-size: 2vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    width: 40vw;
+    flex-wrap: wrap;
+}
+
+.container .notification {
+    display: flex;
+    align-items: center;
+    background-color: rgba(44, 44, 44, 0.767);
+    border-radius: 0.5vw;
+    width: 100%;
+    position: relative;
+    margin: 1vw;
+}
+
+.container .notification .exit-btn {
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0.1vh;
+    right: 0.5vw;
+    cursor: pointer;
+}
+
+.container .notification .icon {
+    width: 15%;
+    margin: 1vw;
+}
+
+.container .notification .text {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+}
+
+.container .notification .text .title {
+    margin: 0;
+    margin-bottom: 0.5vh;
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+.container .notification .text .info {
+    margin: 0;
+    font-size: 1.2vw;
+}
